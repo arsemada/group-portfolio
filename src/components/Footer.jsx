@@ -2,7 +2,13 @@ const Footer = () => (
   <footer className="mt-20 w-full bg-brand-dark px-6 py-12 text-white">
     <div className="grid gap-8 md:grid-cols-3">
       <div>
-        <h4 className="text-xl font-semibold">SetRise</h4>
+        <div className="flex h-12 w-32 items-center justify-center">
+          <img
+            src="/setrise.jpg"
+            alt="SetRise logo"
+            className="h-full w-full object-contain"
+          />
+        </div>
         <p className="mt-3 text-sm text-white/70">
           Nile Tower • Lakeside Innovation Corridor • Bahir Dar, Ethiopia
         </p>

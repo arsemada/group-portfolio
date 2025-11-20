@@ -52,14 +52,14 @@ const services = [
 ];
 
 const Services = () => (
-  <section id="services" className="w-full rounded-[2.5rem] bg-brand py-20 text-white shadow-brand">
+  <section id="services" className="w-full rounded-[2.5rem] bg-white py-20 shadow-[0_30px_100px_rgba(139,69,255,0.3)]">
     <div className="mx-auto max-w-7xl px-6 lg:px-12">
       <div className="mb-16 text-center">
-      <p className="text-xs font-semibold uppercase tracking-[0.4em] text-white/70 mb-3">Services</p>
-      <h2 className="text-3xl font-semibold text-white lg:text-4xl mb-4">
+      <p className="text-xs font-semibold uppercase tracking-[0.4em] text-brand-light mb-3">Services</p>
+      <h2 className="text-3xl font-semibold text-black lg:text-4xl mb-4">
         What we build with you
       </h2>
-      <p className="max-w-2xl mx-auto text-base text-white/80">
+      <p className="max-w-2xl mx-auto text-base text-black/70">
         We partner with organizations to imagine, build, and scale digital products—backed by multi-disciplinary squads,
         modern tooling, and a collaborative mindset.
       </p>
@@ -69,9 +69,9 @@ const Services = () => (
         {services.slice(0, 3).map((service) => (
           <article
             key={service.title}
-            className="group relative flex h-full flex-col rounded-[2.5rem] border border-white/20 bg-white/10 p-8 backdrop-blur transition-all duration-300 hover:-translate-y-2 hover:border-white/40 hover:bg-white/15 hover:shadow-[0_30px_70px_rgba(0,0,0,0.2)]"
+            className="group relative flex h-full flex-col rounded-[2.5rem] border border-brand/20 bg-brand p-8 transition-all duration-300 hover:-translate-y-2 hover:border-brand-light hover:shadow-[0_30px_70px_rgba(75,0,85,0.3)]"
           >
-            <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-white/20 text-white transition-transform duration-300 group-hover:scale-110 group-hover:bg-white/30">
+            <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10 text-white transition-transform duration-300 group-hover:scale-110 group-hover:bg-white/20">
               {service.icon}
             </div>
             <h3 className="mb-4 text-xl font-semibold text-white">{service.title}</h3>
@@ -89,9 +89,9 @@ const Services = () => (
         {services.slice(3).map((service) => (
           <article
             key={service.title}
-            className="group relative flex h-full w-full max-w-sm flex-col rounded-[2.5rem] border border-white/20 bg-white/10 p-8 backdrop-blur transition-all duration-300 hover:-translate-y-2 hover:border-white/40 hover:bg-white/15 hover:shadow-[0_30px_70px_rgba(0,0,0,0.2)]"
+            className="group relative flex h-full w-full max-w-sm flex-col rounded-[2.5rem] border border-brand/20 bg-brand p-8 transition-all duration-300 hover:-translate-y-2 hover:border-brand-light hover:shadow-[0_30px_70px_rgba(75,0,85,0.3)]"
           >
-            <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-white/20 text-white transition-transform duration-300 group-hover:scale-110 group-hover:bg-white/30">
+            <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-white/10 text-white transition-transform duration-300 group-hover:scale-110 group-hover:bg-white/20">
               {service.icon}
             </div>
             <h3 className="mb-4 text-xl font-semibold text-white">{service.title}</h3>
@@ -109,7 +109,7 @@ const Services = () => (
       <div className="mt-16 text-center">
         <button
           onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-          className="rounded-full bg-white px-10 py-4 text-base font-semibold text-brand shadow-lg transition hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-xl"
+          className="rounded-full bg-brand px-10 py-4 text-base font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-brand-light hover:shadow-xl"
         >
           Book a working session
         </button>
