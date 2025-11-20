@@ -34,7 +34,7 @@ const About = () => (
       <div className="space-y-6">
         <p className="text-xs font-semibold uppercase tracking-[0.5em] text-brand-light">Who we are</p>
         <h2 className="text-3xl font-semibold text-black lg:text-5xl">
-          SetRise is a technology service startup delivering innovative software for organizations across industries.
+          Technology solutions that help organizations scale and grow
         </h2>
         <p className="text-base text-black/70 lg:text-lg">
           We specialize in building custom web and mobile applications, AI-powered tools, automation systems, and digital

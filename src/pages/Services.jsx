@@ -4,8 +4,8 @@ const services = [
     description:
       "Tailored platforms that translate complex operations into intuitive digital tools and measurable outcomes.",
     icon: (
-      <svg className="h-8 w-8 text-brand" fill="none" stroke="currentColor" strokeWidth="1.6" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M4 7h16M4 12h16M4 17h16M8 5v4m0 6v4" />
+      <svg className="h-12 w-12" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" />
       </svg>
     ),
   },
@@ -14,8 +14,8 @@ const services = [
     description:
       "Delightful multi-device experiences built with modern stacks, design systems, and accessibility at the core.",
     icon: (
-      <svg className="h-8 w-8 text-brand" fill="none" stroke="currentColor" strokeWidth="1.6" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M7 4h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm4 16h2" />
+      <svg className="h-12 w-12" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
       </svg>
     ),
   },
@@ -24,8 +24,8 @@ const services = [
     description:
       "Copilots, intelligent workflows, and analytics engines that eliminate manual work and surface better decisions.",
     icon: (
-      <svg className="h-8 w-8 text-brand" fill="none" stroke="currentColor" strokeWidth="1.6" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9.75 3.5h4.5l1 4.5h4.75L17 13l1 7-6-3-6 3 1-7-3-5h4.75l1-4.5z" />
+      <svg className="h-12 w-12" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z" />
       </svg>
     ),
   },
@@ -34,8 +34,8 @@ const services = [
     description:
       "Multi-cloud architecture, DevOps automation, and observability so launches stay resilient from day one.",
     icon: (
-      <svg className="h-8 w-8 text-brand" fill="none" stroke="currentColor" strokeWidth="1.6" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M7 18h10a4 4 0 0 0 0-8 6 6 0 0 0-11-2 4 4 0 0 0 1 8z" />
+      <svg className="h-12 w-12" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z" />
       </svg>
     ),
   },
@@ -44,53 +44,76 @@ const services = [
     description:
       "Secure APIs, data pipelines, and interoperability layers that connect legacy systems with modern experiences.",
     icon: (
-      <svg className="h-8 w-8 text-brand" fill="none" stroke="currentColor" strokeWidth="1.6" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" d="M8 7h8v10H8zM3 12h5m8 0h5" />
+      <svg className="h-12 w-12" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
       </svg>
     ),
   },
 ];
 
 const Services = () => (
-  <section id="services" className="mx-auto w-full max-w-6xl px-6 py-16 lg:px-12">
-    <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-      <div>
-        <p className="text-xs font-semibold uppercase tracking-[0.4em] text-brand-light">Services</p>
-        <h2 className="mt-3 text-3xl font-semibold text-black lg:text-4xl">
-          Strategy, design, and engineering inside every engagement.
-        </h2>
-      </div>
-      <p className="max-w-xl text-base text-black/70">
+  <section id="services" className="w-full rounded-[2.5rem] bg-brand py-20 text-white shadow-brand">
+    <div className="mx-auto max-w-7xl px-6 lg:px-12">
+      <div className="mb-16 text-center">
+      <p className="text-xs font-semibold uppercase tracking-[0.4em] text-white/70 mb-3">Services</p>
+      <h2 className="text-3xl font-semibold text-white lg:text-4xl mb-4">
+        What we build with you
+      </h2>
+      <p className="max-w-2xl mx-auto text-base text-white/80">
         We partner with organizations to imagine, build, and scale digital products—backed by multi-disciplinary squads,
         modern tooling, and a collaborative mindset.
       </p>
-    </div>
-    <div className="mt-12 grid gap-6 md:grid-cols-2">
-      {services.map((service) => (
-        <article
-          key={service.title}
-          className="group flex h-full flex-col gap-4 rounded-[2rem] border border-black/5 bg-white p-6 shadow-[0_25px_60px_rgba(0,0,0,0.08)] transition hover:-translate-y-1 hover:border-brand/30"
-        >
-          <div className="flex items-center gap-4">
-            <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-brand/10 text-brand">
+      </div>
+      <div>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        {services.slice(0, 3).map((service) => (
+          <article
+            key={service.title}
+            className="group relative flex h-full flex-col rounded-[2.5rem] border border-white/20 bg-white/10 p-8 backdrop-blur transition-all duration-300 hover:-translate-y-2 hover:border-white/40 hover:bg-white/15 hover:shadow-[0_30px_70px_rgba(0,0,0,0.2)]"
+          >
+            <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-white/20 text-white transition-transform duration-300 group-hover:scale-110 group-hover:bg-white/30">
               {service.icon}
             </div>
-            <h3 className="text-xl font-semibold text-black">{service.title}</h3>
-          </div>
-          <p className="text-sm text-black/70">{service.description}</p>
-          <div className="mt-auto flex items-center text-sm font-semibold text-brand opacity-0 transition group-hover:opacity-100">
-            See our approach →
-          </div>
-        </article>
-      ))}
-    </div>
-    <div className="mt-10 text-center">
-      <button
-        onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
-        className="rounded-full bg-brand px-8 py-3 text-base font-semibold text-white shadow-lg transition hover:-translate-y-0.5 hover:bg-brand-light"
-      >
-        Book a working session
-      </button>
+            <h3 className="mb-4 text-xl font-semibold text-white">{service.title}</h3>
+            <p className="mb-6 flex-1 text-sm leading-relaxed text-white/80">{service.description}</p>
+            <div className="flex items-center text-sm font-semibold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <span>Learn more</span>
+              <svg className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </article>
+        ))}
+      </div>
+      <div className="mt-8 flex flex-wrap justify-center gap-8 md:grid md:grid-cols-2 lg:flex">
+        {services.slice(3).map((service) => (
+          <article
+            key={service.title}
+            className="group relative flex h-full w-full max-w-sm flex-col rounded-[2.5rem] border border-white/20 bg-white/10 p-8 backdrop-blur transition-all duration-300 hover:-translate-y-2 hover:border-white/40 hover:bg-white/15 hover:shadow-[0_30px_70px_rgba(0,0,0,0.2)]"
+          >
+            <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-2xl bg-white/20 text-white transition-transform duration-300 group-hover:scale-110 group-hover:bg-white/30">
+              {service.icon}
+            </div>
+            <h3 className="mb-4 text-xl font-semibold text-white">{service.title}</h3>
+            <p className="mb-6 flex-1 text-sm leading-relaxed text-white/80">{service.description}</p>
+            <div className="flex items-center text-sm font-semibold text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+              <span>Learn more</span>
+              <svg className="ml-2 h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </article>
+        ))}
+        </div>
+      </div>
+      <div className="mt-16 text-center">
+        <button
+          onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+          className="rounded-full bg-white px-10 py-4 text-base font-semibold text-brand shadow-lg transition hover:-translate-y-0.5 hover:bg-white/90 hover:shadow-xl"
+        >
+          Book a working session
+        </button>
+      </div>
     </div>
   </section>
 );

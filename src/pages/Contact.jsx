@@ -6,13 +6,12 @@ const Contact = () => (
     <div className="mt-4 grid gap-12 lg:grid-cols-2">
       <div>
         <h2 className="text-3xl font-semibold text-black lg:text-4xl">
-          Bahir Dar HQ • Available across time zones
+          Let's build something together
         </h2>
         <p className="mt-4 text-base text-black/80">
-          Visit us on the lakeside Innovation Corridor, Nile Tower, Level 5.
-          Book a virtual working session or request our detailed capability
-          deck—your message lands in our shared inbox and we reply within one
-          business day.
+          Ready to transform your ideas into powerful technology solutions? Get in touch with our team. 
+          Share your project vision, challenges, or questions—we'll respond within 24 hours and schedule 
+          a discovery call to discuss how we can help you achieve your goals.
         </p>
         <div className="mt-8 grid gap-6 text-sm text-black/80">
           <div>

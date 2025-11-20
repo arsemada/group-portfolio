@@ -26,25 +26,14 @@ const Navbar = () => {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <button
           onClick={() => handleScroll("home")}
-          className="flex items-center gap-4 text-left"
+          className="flex items-center"
         >
-          <div className="relative flex h-14 w-32 items-center justify-center rounded-2xl bg-gradient-to-r from-brand to-brand-light p-[2px] shadow-brand">
-            <div className="flex h-full w-full items-center justify-center rounded-2xl bg-white/90 px-2 py-1">
-              <img
-                src="/setrise.jpg"
-                alt="SetRise logo"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <span className="absolute -right-3 -top-3 flex h-6 w-6 items-center justify-center rounded-full bg-crown text-xs font-semibold text-brand-dark shadow-lg">
-              ★
-            </span>
-          </div>
-          <div>
-            <p className="text-base font-semibold text-black">SetRise</p>
-            <p className="text-xs uppercase tracking-[0.5em] text-black/60">
-              Tech Studio
-            </p>
+          <div className="flex h-14 w-32 items-center justify-center">
+            <img
+              src="/setrise.jpg"
+              alt="SetRise logo"
+              className="h-full w-full object-contain"
+            />
           </div>
         </button>
         <button
