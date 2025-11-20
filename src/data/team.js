@@ -1,6 +1,18 @@
 const team = [
   {
     id: 1,
+    name: "Arsema Degu",
+    role: "Full-Stack Engineer & AI Specialist",
+    bio: "Bridges product strategy with modern stacks to deliver seamless experiences end-to-end.",
+    image:
+      "/home/tsedenawit/Documents/projects/team/group-portfolio/public/Arsema.jpg",
+    social: {
+      linkedin: "https://linkedin.com/in/arsema-degu",
+      twitter: "#",
+    },
+  },
+  {
+    id: 2,
     name: "Tsedenya Emkedemealem",
     role: "Backend Engineer & AI Lead",
     bio: "Architects resilient services and data pipelines that power our automation and AI products.",
@@ -8,18 +20,6 @@ const team = [
       "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=80",
     social: {
       linkedin: "https://linkedin.com/in/tsedenya-emkedemealem",
-      twitter: "#",
-    },
-  },
-  {
-    id: 2,
-    name: "Arsema Degu",
-    role: "Full-Stack Engineer & AI Specialist",
-    bio: "Bridges product strategy with modern stacks to deliver seamless experiences end-to-end.",
-    image:
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80",
-    social: {
-      linkedin: "https://linkedin.com/in/arsema-degu",
       twitter: "#",
     },
   },

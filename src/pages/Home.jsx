@@ -6,7 +6,6 @@ import Projects from "./Projects";
 import Achievements from "./Achievements";
 import Certifications from "./Certifications";
 import Team from "./Team";
-import Partners from "./Partners";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 
@@ -20,7 +19,6 @@ const Home = () => (
       <Achievements />
       <Certifications />
       <Team />
-      <Partners />
       <Testimonials />
       <CTA />
       <Contact />

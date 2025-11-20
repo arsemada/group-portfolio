@@ -4,11 +4,9 @@ const links = [
   { label: "About", target: "about" },
   { label: "Services", target: "services" },
   { label: "Work", target: "projects" },
-  { label: "Products", target: "products" },
   { label: "Achievements", target: "achievements" },
   { label: "Certifications", target: "certifications" },
   { label: "Team", target: "team" },
-  { label: "Partners", target: "partners" },
   { label: "Testimonials", target: "testimonials" },
 ];
 
