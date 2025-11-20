@@ -3,12 +3,10 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 
 const App = () => (
-  <div className="min-h-screen bg-slate-50">
+  <div className="min-h-screen bg-[#fcf7ff]">
     <Navbar />
     <Home />
-    <div className="mx-auto max-w-6xl px-6">
-      <Footer />
-    </div>
+    <Footer />
   </div>
 );
 

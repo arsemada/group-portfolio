@@ -1,33 +1,48 @@
 const projects = [
   {
     id: 1,
-    title: "Product Launch Platform",
+    title: "Nimbus ERP Suite",
     description:
-      "End-to-end launch toolkit with analytics, collaboration, and experiment tracking.",
-    tech: ["React", "Tailwind", "Node"],
+      "Unified ERP platform for manufacturing groups expanding across East Africa.",
+    highlights: [
+      "Re-architected to serverless, cutting infrastructure cost by 38%",
+      "Bilingual UX shipped for desk and mobile teams",
+      "Live control tower dashboards for every business unit",
+    ],
     image:
-      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80",
-    link: "#",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80",
+    link: "https://setrise.com/work/nimbus",
+    linkLabel: "Read the Nimbus story",
   },
   {
     id: 2,
-    title: "AI Insights Dashboard",
+    title: "Aster Health Command",
     description:
-      "Interactive dashboard delivering AI-assisted reports for high-growth ops teams.",
-    tech: ["Next.js", "TypeScript", "D3"],
+      "Clinical workflow system coordinating 12 hospitals with real-time visibility.",
+    highlights: [
+      "Gov-cloud deployment with automated auditing",
+      "Offline-first mobile rounds companion",
+      "Analytics narrative that updates the board every Monday",
+    ],
     image:
-      "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=800&q=80",
-    link: "#",
+      "https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=900&q=80",
+    link: "https://setrise.com/work/aster",
+    linkLabel: "See how we scaled care",
   },
   {
     id: 3,
-    title: "Mobile Banking App",
+    title: "PulsePay Rail",
     description:
-      "Secure finance experience with biometric auth, shared wallets, and budgeting tools.",
-    tech: ["Flutter", "Firebase", "Figma"],
+      "Digital payment rail compressing settlement from days to minutes for retail brands.",
+    highlights: [
+      "Multi-tenant ledger with automated reconciliation",
+      "Consumer app with biometric security",
+      "Compliance cockpit for finance & risk teams",
+    ],
     image:
-      "https://images.unsplash.com/photo-1581093806997-124204d9fa9d?auto=format&fit=crop&w=800&q=80",
-    link: "#",
+      "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80",
+    link: "https://setrise.com/work/pulsepay",
+    linkLabel: "Explore the case study",
   },
 ];
 

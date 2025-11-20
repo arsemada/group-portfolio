@@ -1,37 +1,49 @@
 const team = [
   {
     id: 1,
-    name: "Ava Thompson",
-    role: "CEO & Product Lead",
-    bio: "Drives strategy, storytelling, and long-term product vision.",
+    name: "Tsedenya Emkedemealem",
+    role: "Backend Engineer & AI Lead",
+    bio: "Architects resilient services and data pipelines that power our automation and AI products.",
     image:
       "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=80",
     social: {
-      linkedin: "#",
+      linkedin: "https://linkedin.com/in/tsedenya-emkedemealem",
       twitter: "#",
     },
   },
   {
     id: 2,
-    name: "Liam Patel",
-    role: "CTO",
-    bio: "Architects scalable systems and leads our engineering practice.",
+    name: "Arsema Degu",
+    role: "Full-Stack Engineer & AI Specialist",
+    bio: "Bridges product strategy with modern stacks to deliver seamless experiences end-to-end.",
     image:
-      "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80",
     social: {
-      linkedin: "#",
+      linkedin: "https://linkedin.com/in/arsema-degu",
       twitter: "#",
     },
   },
   {
     id: 3,
-    name: "Maya Chen",
-    role: "Design Lead",
-    bio: "Owns the multi-platform design system and user research.",
+    name: "Rediet Berhanu",
+    role: "Backend & Flutter Engineer",
+    bio: "Builds cross-platform systems that keep APIs, mobile apps, and integrations in sync.",
     image:
-      "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=600&q=80",
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=600&q=80",
     social: {
-      linkedin: "#",
+      linkedin: "https://linkedin.com/in/rediet-berhanu",
+      twitter: "#",
+    },
+  },
+  {
+    id: 4,
+    name: "Tsion Bantegize",
+    role: "Full-Stack Engineer & UX Designer",
+    bio: "Shapes user journeys, interface systems, and the frontend craft behind every SetRise build.",
+    image:
+      "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=600&q=80",
+    social: {
+      linkedin: "https://linkedin.com/in/tsion-bantegize",
       twitter: "#",
     },
   },

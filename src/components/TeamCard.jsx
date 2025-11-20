@@ -1,18 +1,24 @@
 const TeamCard = ({ name, role, bio, image, social }) => (
-  <article className="flex flex-col rounded-2xl border border-slate-100 bg-white p-6 text-center shadow transition hover:-translate-y-1 hover:shadow-2xl">
+  <article className="flex flex-col rounded-3xl border border-black/5 bg-white p-6 text-center shadow-lg">
     <img
       src={image}
       alt={name}
-      className="mx-auto mb-4 h-28 w-28 rounded-full object-cover shadow-lg"
+      className="mx-auto mb-5 h-28 w-28 rounded-3xl object-cover shadow-brand"
     />
-    <h3 className="text-lg font-semibold text-slate-900">{name}</h3>
-    <p className="text-sm text-indigo-600">{role}</p>
-    <p className="mt-3 text-sm text-slate-600">{bio}</p>
-    <div className="mt-4 flex justify-center gap-4 text-sm font-medium text-slate-500">
-      <a href={social.linkedin} className="transition hover:text-indigo-600">
+    <h3 className="text-xl font-semibold text-black">{name}</h3>
+    <p className="text-sm text-brand-light">{role}</p>
+    <p className="mt-4 text-sm text-black/70">{bio}</p>
+    <div className="mt-6 flex justify-center gap-5 text-sm font-medium">
+      <a
+        href={social.linkedin}
+        className="text-black/70 underline-offset-4 hover:text-brand hover:underline"
+      >
         LinkedIn
       </a>
-      <a href={social.twitter} className="transition hover:text-indigo-600">
+      <a
+        href={social.twitter}
+        className="text-black/70 underline-offset-4 hover:text-brand hover:underline"
+      >
         Twitter
       </a>
     </div>
