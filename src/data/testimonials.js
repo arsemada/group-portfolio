@@ -2,26 +2,26 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "SetRise rebuilt our entire payment stack in eight weeks. Their ability to translate board-level strategy into working software is unmatched.",
-    name: "Sena Kebede",
-    title: "COO, HorizonPay",
-    image: "https://ui-avatars.com/api/?name=Sena+Kebede&background=8B45FF&color=fff&size=128&bold=true",
+      "They are talented and reliable software developers. They built our center's incubation management system with professionalism, efficiency, and strong technical expertise. We're very satisfied with their work.",
+    name: "BiTec",
+    title: "Innovation Center",
+    image: "/bitec.jpeg",
   },
   {
     id: 2,
     quote:
-      "From discovery to launch, they operated like an embedded product team. The new mobile experience boosted adoption by 63% in the first quarter.",
-    name: "Jonas Mensah",
-    title: "Head of Digital, Oromia Bank",
-    image: "https://ui-avatars.com/api/?name=Jonas+Mensah&background=8B45FF&color=fff&size=128&bold=true",
+      "The team has been exceptional to work with. Their professionalism, clear communication, and ability to understand our organizational goals stood out from day one. They always approached every interaction with positivity, reliability, and a strong commitment to delivering the best outcome. We truly value their integrity and collaborative spirit.",
+    name: "Dr. Zelalem Mengistu",
+    title: "Organization Leader",
+    image: "/DRZelalem.png",
   },
   {
     id: 3,
     quote:
-      "SetRise delivered a secure, regulator-ready platform with documentation our internal teams still use daily.",
-    name: "Netsanet Abebe",
-    title: "Director of Innovation, Taskforce Labs",
-    image: "https://ui-avatars.com/api/?name=Netsanet+Abebe&background=8B45FF&color=fff&size=128&bold=true",
+      "They built a custom software solution that fully automates our workflow and greatly improves our efficiency. Their professionalism and technical skill made the whole process smooth and effective.",
+    name: "Gato Consultancy",
+    title: "Tax Consulting Firm",
+    image: "/GatoLogo.jpg",
   },
 ];
 

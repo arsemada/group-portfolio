@@ -44,8 +44,8 @@ const Certifications = () => {
             {certifications.map((cert) => (
               <div key={cert.id} className="w-full flex-shrink-0 basis-full px-6 py-10 sm:px-12">
                 <article className="grid gap-6 text-black lg:grid-cols-2">
-                  <div className="overflow-hidden rounded-3xl">
-                    <img src={cert.image} alt={cert.name} className="h-64 w-full object-cover" />
+                  <div className="flex items-center justify-center overflow-hidden rounded-3xl bg-gray-50 p-4">
+                    <img src={cert.image} alt={cert.name} className="h-auto w-full max-h-96 object-contain" />
                   </div>
                   <div className="flex flex-col justify-center gap-4">
                     <p className="text-xs font-semibold uppercase tracking-[0.4em] text-brand-light">Credential</p>

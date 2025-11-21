@@ -10,9 +10,9 @@ import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 
 const Home = () => (
-  <main className="mt-32 flex w-full flex-col gap-16 px-6 pb-24 lg:px-12">
+  <main className="mt-32 flex w-full flex-col gap-16 pb-24">
     <Hero />
-    <div className="flex flex-col gap-16 bg-white/70 px-4 py-12 backdrop-blur">
+    <div className="flex flex-col gap-16 bg-white/70 px-6 py-12 backdrop-blur lg:px-12">
       <About />
       <Services />
       <Projects />

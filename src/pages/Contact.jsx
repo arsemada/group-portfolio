@@ -17,17 +17,22 @@ const Contact = () => (
           <div>
             <p className="font-semibold text-black">Email</p>
             <a
-              href="mailto:hello@setrise.com"
+              href="mailto:iimsystem04@gmail.com"
               className="text-brand-light underline-offset-4 hover:underline"
             >
-              hello@setrise.com
+              iimsystem04@gmail.com
             </a>
           </div>
           <div>
             <p className="font-semibold text-black">Phone</p>
-            <a href="tel:+251911223344" className="text-brand-light underline-offset-4 hover:underline">
-              +251 911 223 344
-            </a>
+            <div className="flex flex-col gap-1">
+              <a href="tel:+251955336000" className="text-brand-light underline-offset-4 hover:underline">
+                +251 955336000
+              </a>
+              <a href="tel:+251975163930" className="text-brand-light underline-offset-4 hover:underline">
+                +251 975163930
+              </a>
+            </div>
           </div>
           <div>
             <p className="font-semibold text-black">Office hours</p>

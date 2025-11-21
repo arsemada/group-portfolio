@@ -1,79 +1,88 @@
 const projects = [
   {
     id: 1,
-    title: "Nike",
-    description: "E-commerce platform for global sportswear brand",
+    title: "IIMS (Innovation & Incubation Management System)",
+    description: "IIMS is a platform designed to help universities and institutions efficiently manage startups, mentors, and innovation programs. It streamlines processes like startup tracking, mentor-student interactions, and program monitoring, empowering institutions to support entrepreneurial growth effectively.",
     highlights: [
-      "Mobile-first",
-      "Global payments",
-      "Real-time inventory"
+      "Startup tracking",
+      "Mentor-student interactions",
+      "Program monitoring"
     ],
-    image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Logo_NIKE.svg/1200px-Logo_NIKE.svg.png",
+    image: "/iimsLogo.jpg",
+    logo: "/iimsLogo.jpg",
     link: "#",
     linkLabel: "View project",
-    longDescription: "Developed a high-performance e-commerce platform for Nike, featuring seamless checkout and personalized recommendations."
   },
   {
     id: 2,
-    title: "Netflix",
-    description: "Streaming platform with personalized content delivery",
+    title: "Gato Consultancy",
+    description: "Gato Consultancy is a team of dedicated professionals specializing in tax consulting and compliance, committed to delivering accurate, reliable, and personalized solutions that help clients meet financial obligations while protecting their business interests. We developed a comprehensive software system for Gato Consultancy to streamline their operations, enhance efficiency, and support their mission of providing professional, ethical, and innovative tax solutions.",
     highlights: [
-      "4K streaming",
-      "AI recommendations",
-      "Multi-device sync"
+      "Tax consulting",
+      "Compliance management",
+      "Workflow automation"
     ],
-    image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=80",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/7/77/Netflix_2015_N_logo.svg",
+    image: "/GatoLogo.jpg",
+    logo: "/GatoLogo.jpg",
     link: "#",
-    linkLabel: "See case study",
-    longDescription: "Engineered a scalable content delivery network for Netflix, reducing buffering time by 40% and improving user retention."
+    linkLabel: "View project",
   },
   {
     id: 3,
-    title: "Spotify",
-    description: "Music streaming with personalized playlists",
+    title: "IPv6 Ethiopia Council",
+    description: "The IPv6 Ethiopia Council promotes awareness, training, and national adoption of IPv6 across Ethiopia's digital ecosystem. By collaborating with network professionals, institutions, and policymakers, the organization advocates for modern, scalable internet infrastructure and supports the country's transition from IPv4 to IPv6.",
     highlights: [
-      "100M+ songs",
-      "Offline listening",
-      "Cross-platform"
+      "IPv6 awareness",
+      "Training programs",
+      "National adoption"
     ],
-    image: "https://images.unsplash.com/photo-1611339555312-e607c8352fd7?auto=format&fit=crop&w=900&q=80",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
-    link: "#",
-    linkLabel: "View project",
-    longDescription: "Developed the recommendation engine powering Spotify's Discover Weekly, increasing user engagement by 35%."
+    image: "/ipv6.jpg",
+    logo: "/ipv6.jpg",
+    link: "https://www.ipv6et.org/",
+    linkLabel: "Visit website",
   },
   {
     id: 4,
-    title: "Airbnb",
-    description: "Global travel and accommodation platform",
+    title: "ETWiC",
+    description: "ETWiC is a community-driven initiative dedicated to empowering Ethiopian women in the field of cybersecurity. Through mentorship, training programs, hands-on workshops, and certification support, the organization works to close the digital gender gap and create opportunities for women to grow as skilled cybersecurity professionals.",
     highlights: [
-      "Instant booking",
-      "Host protection",
-      "Local experiences"
+      "Cybersecurity training",
+      "Mentorship programs",
+      "Gender gap initiatives"
     ],
-    image: "https://images.unsplash.com/photo-1501183636855-e0f5e5e59f4f?auto=format&fit=crop&w=900&q=80",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg",
-    link: "#",
-    linkLabel: "See case study",
-    longDescription: "Built the host management system for Airbnb, simplifying property listings and increasing host signups by 45%."
+    image: "/etwic.png",
+    logo: "/etwic.png",
+    link: "https://etwic.org/",
+    linkLabel: "Visit website",
   },
   {
     id: 5,
-    title: "Uber",
-    description: "Ride-hailing and mobility platform",
+    title: "ETNERD",
+    description: "ETNERD is an enterprise technology solutions provider focused on delivering advanced cybersecurity, digital transformation, and managed IT services. The organization supports businesses with secure, scalable infrastructure, continuous monitoring, and expert guidance to strengthen their security posture and modernize their digital operations.",
     highlights: [
-      "Real-time tracking",
-      "Cashless payments",
-      "24/7 support"
+      "Cybersecurity solutions",
+      "Digital transformation",
+      "Managed IT services"
     ],
-    image: "https://images.unsplash.com/photo-1558981806-ec527fa84c39?auto=format&fit=crop&w=900&q=80",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/5/58/Uber_mobile_logo.svg",
-    link: "#",
-    linkLabel: "View project",
-    longDescription: "Developed the driver-partner app for Uber, optimizing routes and reducing wait times by 30%."
-  }
+    image: "/etnerd.jpg",
+    logo: "/etnerd.jpg",
+    link: "https://etnerd.com/",
+    linkLabel: "Visit website",
+  },
+  {
+    id: 6,
+    title: "Secure AI in Africa (SAI²)",
+    description: "Secure AI in Africa (SAI²) is an initiative dedicated to advancing AI security across the continent by promoting awareness, delivering targeted training, and fostering local capacity.",
+    highlights: [
+      "AI security",
+      "Training programs",
+      "Capacity building"
+    ],
+    image: "/SAI2.jpg",
+    logo: "/SAI2.jpg",
+    link: "https://secureaiafrica.africa/",
+    linkLabel: "Visit website",
+  },
 ];
 
 export default projects;

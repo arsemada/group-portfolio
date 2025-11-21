@@ -23,7 +23,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-black text-white"
+      className="relative flex min-h-screen w-screen items-center justify-center overflow-hidden bg-black text-white"
     >
       {/* Carousel Background */}
       <div className="absolute inset-0">
@@ -36,7 +36,7 @@ const Hero = () => {
             style={{
               backgroundImage: `url(${image})`,
               backgroundSize: "cover",
-              backgroundPosition: "center 60%",
+              backgroundPosition: "center 50%",
               backgroundRepeat: "no-repeat",
             }}
           />

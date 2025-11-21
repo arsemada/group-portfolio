@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50 border-b border-black/5 bg-white/90 backdrop-blur">
+    <header className="fixed inset-x-0 top-0 z-50 border-b border-black/5 bg-white/90 backdrop-blur shadow-[0_4px_20px_rgba(139,69,255,0.15)]">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <button
           onClick={() => handleScroll("home")}
